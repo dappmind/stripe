@@ -21,7 +21,8 @@ $customer = \Stripe\Customer::create(array(
   "application_fee_percent" => 33
 ),
   
-  array("stripe_account" => acct_18RoiZAGHVNPDc9Y)
+  array("stripe_account" => acct_xxxxxxxxxxxxxxxx)
+//acct_xxxxxxxxxxxxxxxx is the connected account id, find it in the dashboard under connected accounts
 );
 } catch(\Stripe\Error\Card $e) {
   // The card has been declined
